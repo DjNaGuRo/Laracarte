@@ -2,10 +2,10 @@
 	<div class="container-fluid">
 		<a href="{{route('home')}}" class="navbar-brand">Laracarte</a>
 		<ul class="navbar-nav"> 
-			<li class="nav-item">
-				<a href="{{route('home')}}" class="nav-link active">Home</a>
+			<li class="nav-item {{set_active_route('home')}}">
+				<a href="{{route('home')}}" class="nav-link ">Home</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item {{set_active_route('about')}}">
 				<a href="{{route('about')}}" class="nav-link">About</a>
 			</li>
 			<li class="nav-item">
