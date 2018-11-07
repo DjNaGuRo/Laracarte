@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light navbar-expand-md bg-light"><!-- bg-light navbar-expand-md -->
 	<div class="container-fluid">
-		<a href="{{route('home')}}" class="navbar-brand">Laracarte</a>
+		<a href="{{route('home')}}" class="navbar-brand">{{config('app.name')}}</a>
 		<ul class="navbar-nav"> 
 			<li class="nav-item {{set_active_route('home')}}">
 				<a href="{{route('home')}}" class="nav-link ">Home</a>
