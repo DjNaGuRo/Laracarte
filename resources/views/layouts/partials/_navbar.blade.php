@@ -23,8 +23,8 @@
 					<a href="//larachat.com" class="dropdown-item">Larachat</a>
 				</div>
 			</li>
-			<li class="nav-item">
-				<a href="{{route('home')}}" class="nav-link">Contacts</a>
+			<li class="nav-item {{set_active_route('contact')}}">
+				<a href="{{route('contact')}}" class="nav-link">Contacts</a>
 			</li>
 		</ul>
 		
