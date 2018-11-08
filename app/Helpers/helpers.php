@@ -19,3 +19,11 @@ if (! function_exists('set_active_route')) {
 		return Route::is($route) ? 'active' : '';
 	}
 }
+
+/* Check if an error exists for the specified attribute past and return the class "haserror" or empty string otherwise */
+// if (! function_exists('has_error')) {
+// 	function has_error($attribute)
+// 	{
+// 		return $errors->has($attribute) ? 'has-error' : '';
+// 	}
+// }

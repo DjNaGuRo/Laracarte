@@ -20,5 +20,7 @@
         @include('layouts/partials/_navbar')
         @yield('content')
         @include('layouts/partials/_footer')
+        <script src="//code.jquery.com/jquery.js"></script>
+        @include('flashy::message')
     </body>
 </html>
